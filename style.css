@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    animation-name: example;
+    animation-duration: 20s;
+}
+
+.item{
+    height: 100%;
+    position: relative;
+}
+
+.wrapper{
+    height: 100%;
+
+}
+
+.slider{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#wrapper-1{
+    background-color: rgb(171, 114, 224);
+}
+
+#wrapper-2{
+    background-color: rgb(114, 116, 224);
+}
+
+#wrapper-3{
+    background-color: rgb(224, 114, 202);
+}
+
+#wrapper-4{
+    background-color: rgb(224, 114, 202);
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    color: white;
+    font-size: 2.5rem;
+}
+#conte{
+    position: relative;
+    margin-top: -35px;
+    display: flex;
+    justify-content: center;
+}
+#conte > a{
+    font-size: 2.5rem;
+    font-style: none;
+    color:white;
+}
+
+img{
+  width: 100%;
+  height: 100%;  
+}
+@keyframes example{
+
+}
